@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#maze {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.wall, #start, #end {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+}
+
+#wall1 {
+    top: 0px;
+    left: 0px;
+}
+
+#wall2 {
+    top: 20px;
+    left: 100px;
+}
+
+#wall3 {
+    top: 60px;
+    left: 200px;
+}
+
+#wall4 {
+    top: 120px;
+    left: 80px;
+}
+
+#wall5 {
+    top: 200px;
+    left: 60px;
+}
+
+#wall6 {
+    top: 220px;
+    left: 180px;
+}
+
+#wall7 {
+    top: 260px;
+    left: 300px;
+}
+
+#wall8 {
+    top: 100px;
+    left: 160px;
+}
+
+#wall9 {
+    top: 60px;
+    left: 260px;
+}
+
+#wall10 {
+    top: 300px;
+    left: 200px;
+}
+
+#wall11 {
+    top: 160px;
+    left: 60px;
+}
+
+#wall12 {
+    top: 180px;
+    left: 360px;
+}
+
+#wall13 {
+    top: 40px;
+    left: 400px;
+}
+
+#wall14 {
+    top: 300px;
+    left: 100px;
+}
+
+#wall15 {
+    top: 360px;
+    left: 260px;
+}
+
+#wall16 {
+    top: 40px;
+    left: 200px;
+}
+
+#wall17 {
+    top: 220px;
+    left: 120px;
+}
+
+#wall18 {
+    top: 180px;
+    left: 30px;
+  }
+  
+  #wall19 {
+    top: 380px;
+    left: 280px;
+  }
+  
+  #wall20 {
+    top: 60px;
+    left: 60px;
+  }
+  
+  #wall21 {
+    top: 280px;
+    left: 40px;
+  }
+  
+  #wall22 {
+    top: 200px;
+    left: 260px;
+  }
+  
+  #wall23 {
+    top: 180px;
+    left: 100px;
+  }
+  
+  #wall24 {
+    top: 60px;
+    left: 380px;
+  }
+  
+  #wall25 {
+    top: 160px;
+    left: 300px;
+  }
+  
+  #wall26 {
+    top: 280px;
+    left: 160px;
+  }
+  
+  #wall27 {
+    top: 100px;
+    left: 360px;
+  }
+  
+  #wall28 {
+    top: 20px;
+    left: 200px;
+  }
+  
+  #wall29 {
+    top: 200px;
+    left: 100px;
+  }
+  
+  #wall30 {
+    top: 300px;
+    left: 320px;
+  }
+  
+  #wall31 {
+    top: 120px;
+    left: 260px;
+  }
+  
+  #wall32 {
+    top: 380px;
+    left: 60px;
+  }
+  
+  #wall33 {
+    top: 260px;
+    left: 380px;
+  }
+  
+  #wall34 {
+    top: 220px;
+    left: 20px;
+  }
+  
+  #wall35 {
+    top: 140px;
+    left: 280px;
+  }
+  
+  #wall36 {
+    top: 300px;
+    left: 180px;
+  }
+  
+  #wall37 {
+    top: 360px;
+    left: 60px;
+  }
+  
+  #wall38 {
+    top: 100px;
+    left: 180px;
+  }
+  
+  #wall39 {
+    top: 40px;
+    left: 100px;
+  }
+  
+  #wall40 {
+    top: 380px;
+    left: 320px;
+}
+
+#wall40 {
+    top: 340px;
+    left: 260px;
+}
+
+#wall41 {
+    top: 160px;
+    left: 280px;
+}
+
+#wall42 {
+    top: 240px;
+    left: 200px;
+}
+
+#wall43 {
+    top: 80px;
+    left: 320px;
+}
+
+#wall44 {
+    top: 360px;
+    left: 140px;
+}
+
+#wall45 {
+    top: 280px;
+    left: 60px;
+}
+
+#wall46 {
+    top: 20px;
+    left: 240px;
+}
+
+#wall47 {
+    top: 220px;
+    left: 360px;
+}
+
+#wall48 {
+    top: 180px;
+    left: 280px;
+}
+
+#wall49 {
+    top: 320px;
+    left: 120px;
+}
+
+#wall50 {
+    top: 40px;
+    left: 180px;
+}
+
+#start {
+    background-color: goldenrod;
+    top: 20px;
+    left: 20px;
+}
+
+#end {
+    background-color: azure;
+    top: 360px;
+    left: 360px;
+}
+
+.player {
+    width: 20px;
+    height: 20px;
+    background-color: slateblue;
+    position: absolute;
+}
+

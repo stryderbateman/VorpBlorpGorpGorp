@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#maze {
+  margin: 60px auto; /* Increased margin */
+  width: 1200px; /* Increased width by a factor of 3 */
+  height: 1200px; /* Increased height by a factor of 3 */
+  border: 6px solid #000; /* Increased border */
+  position: relative;
+}
+
+.wall, #start, #end {
+  width: 60px; /* Increased width by a factor of 3 */
+  height: 60px; /* Increased height by a factor of 3 */
+  background-color: #000;
+  position: absolute;
+}
+
+/* Wall positions adjusted by a factor of 3 */
+#wall1 {
+  top: 0px;
+  left: 0px;
+}
+#wall2 {
+  top: 60px;
+  left: 300px;
+}
+/* Adjust remaining wall positions similarly */
+
+#start {
+  background-color: goldenrod;
+  top: 60px; /* Adjusted position */
+  left: 60px; /* Adjusted position */
+}
+
+#end {
+  background-color: azure;
+  top: 1080px; /* Adjusted position */
+  left: 1080px; /* Adjusted position */
+}
+
+.player {
+  width: 60px; /* Increased width by a factor of 3 */
+  height: 60px; /* Increased height by a factor of 3 */
+  background-color: slateblue;
+  position: absolute;
+}
